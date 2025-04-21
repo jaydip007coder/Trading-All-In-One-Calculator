@@ -16,11 +16,13 @@ INDIAN_INSTRUMENTS = [
 
 c = CurrencyRates()
 
+@st.cache_data
 def load_firm_rules(firm_name):
     with open('data/firms.json', 'r') as f:
         firms = json.load(f)
     return firms.get(firm_name, {})
 
+@st.cache_data(ttl=60)
 def fetch_live_price(pair):
     try:
         base = pair[:3]
@@ -91,6 +93,22 @@ with tab_main1:
             "📏 Lot Size Calculator", "\U0001F4B0 Profit Calculator", "\U0001F4C6 Consistency Checker",
             "🫩 Risk-Reward Optimizer"
         ])
+
+        with tab1:
+            st.subheader("📈 Evaluation Phases")
+            st.json(rules.get("evaluation_phases", {}))
+
+        with tab2:
+            st.subheader("💼 Funded Account")
+            st.json(rules.get("funded_account", {}))
+
+        with tab3:
+            st.subheader("📊 All Phases Overview")
+            st.json(rules.get("overview", {}))
+
+        with tab4:
+            st.subheader("⚙️ Trading Rules")
+            st.json(rules.get("trading_rules", {}))
 
         with tab5:
             st.subheader("\U0001F4C9 Daily Drawdown Validator")
@@ -185,4 +203,3 @@ with tab_main2:
     lot_count = risk_amount / (stop_loss_points * point_value)
     st.markdown(f"**Max Risk Amount:** ₹{risk_amount:.2f}")
     st.markdown(f"**Recommended Lot Count:** {lot_count:.2f} lots")
-# Your full app.py content (already shown in canvas, so will skip re-inserting here)
