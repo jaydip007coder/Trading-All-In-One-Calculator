@@ -29,149 +29,136 @@
       "Trading Hours": "24/5",
       "EA/Bot Trading Allowed": true
     },
-    "max_daily_drawdown": 5,
-    "consistency_limit": 15,
-    "phases_by_account_size": {
-      "$5K": {
-        "Phase 1": "$500 profit target",
-        "Phase 2": "$250 profit target"
+    "challenge_types": {
+      "1-Phase": {
+        "Description": "For expert traders who want faster access to funding.",
+        "Features": [
+          "Only 1 phase to pass",
+          "Same price as 2-phase Regular challenge",
+          "No time limit",
+          "No lot size restriction",
+          "Full refund upon successful funding",
+          "Bi-weekly payouts"
+        ],
+        "Account Sizes": {
+          "$5K": "$700 (14%) profit target",
+          "$10K": "$1,400 (14%) profit target",
+          "$25K": "$3,500 (14%) profit target",
+          "$50K": "$7,000 (14%) profit target",
+          "$100K": "$14,000 (14%) profit target",
+          "$150K": "$21,000 (14%) profit target",
+          "$200K": "$28,000 (14%) profit target"
+        },
+        "Max Daily Drawdown": "4%",
+        "Max Overall Drawdown": "7%",
+        "Leverage": "Up to 1:50",
+        "Challenge Duration": "Unlimited",
+        "Refundable Fee": true
       },
-      "$10K": {
-        "Phase 1": "$1,000 profit target",
-        "Phase 2": "$500 profit target"
+      "Regular (2-Phase)": {
+        "Description": "Ideal for active/intraday traders.",
+        "Features": [
+          "Higher leverage (up to 1:50)",
+          "No max lot size",
+          "No time limit",
+          "2 evaluation phases",
+          "Daily & overall drawdown rules apply",
+          "Bi-weekly payouts"
+        ],
+        "Account Sizes": {
+          "$5K": {
+            "Phase 1": "$500 profit target",
+            "Phase 2": "$250 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$10K": {
+            "Phase 1": "$1,000 profit target",
+            "Phase 2": "$500 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$25K": {
+            "Phase 1": "$2,500 profit target",
+            "Phase 2": "$1,250 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$50K": {
+            "Phase 1": "$5,000 profit target",
+            "Phase 2": "$2,500 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$100K": {
+            "Phase 1": "$10,000 profit target",
+            "Phase 2": "$5,000 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$200K": {
+            "Phase 1": "$20,000 profit target",
+            "Phase 2": "$10,000 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          }
+        }
       },
-      "$25K": {
-        "Phase 1": "$2,500 profit target",
-        "Phase 2": "$1,250 profit target"
-      },
-      "$50K": {
-        "Phase 1": "$5,000 profit target",
-        "Phase 2": "$2,500 profit target"
-      },
-      "$100K": {
-        "Phase 1": "$10,000 profit target",
-        "Phase 2": "$5,000 profit target"
-      },
-      "$200K": {
-        "Phase 1": "$20,000 profit target",
-        "Phase 2": "$10,000 profit target"
+      "Swing (2-Phase)": {
+        "Description": "Perfect for trend traders who hold trades longer.",
+        "Features": [
+          "Hold trades overnight and over weekends",
+          "Trade during news events",
+          "Trade crypto on weekends",
+          "2 evaluation phases",
+          "No max lot size",
+          "No time limit"
+        ],
+        "Account Sizes": {
+          "$5K": {
+            "Phase 1": "$500 profit target",
+            "Phase 2": "$250 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$10K": {
+            "Phase 1": "$1,000 profit target",
+            "Phase 2": "$500 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$25K": {
+            "Phase 1": "$2,500 profit target",
+            "Phase 2": "$1,250 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$50K": {
+            "Phase 1": "$5,000 profit target",
+            "Phase 2": "$2,500 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$100K": {
+            "Phase 1": "$10,000 profit target",
+            "Phase 2": "$5,000 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          },
+          "$200K": {
+            "Phase 1": "$20,000 profit target",
+            "Phase 2": "$10,000 profit target",
+            "Max Daily Drawdown": "4%",
+            "Max Overall Drawdown": "7%"
+          }
+        }
       }
-    }
-  },
-  "FTMO": {
-    "evaluation_phases": {
-      "Phase 1": "10% profit target, 5% daily drawdown, 30 calendar days",
-      "Phase 2": "5% profit target, 5% daily drawdown, 60 calendar days"
-    },
-    "funded_account": {
-      "Leverage": "1:100",
-      "Min Trading Days": 10,
-      "Profit Split": "80/20",
-      "Payout Frequency": "Monthly",
-      "Scaling Plan": "Yes, up to 400%"
-    },
-    "overview": {
-      "Total Target": "$10,000 on $100K account",
-      "Max Drawdown": "10% of initial balance",
-      "Daily Drawdown": "5% from previous day balance",
-      "Phases": 2,
-      "Refundable Fee": "Yes, if both phases passed"
-    },
-    "trading_rules": {
-      "Leverage": "1:100",
-      "News Trading Allowed": true,
-      "Weekend Holding": true,
-      "Consistency Rule": false,
-      "Max Daily Drawdown": "5%",
-      "Max Overall Drawdown": "10%",
-      "Minimum Trading Days": 10,
-      "Trading Hours": "24/5",
-      "EA/Bot Trading Allowed": true
     },
     "max_daily_drawdown": 5,
-    "consistency_limit": 15,
-    "phases_by_account_size": {
-      "$10K": {
-        "Phase 1": "$1,000 profit target",
-        "Phase 2": "$500 profit target"
-      },
-      "$25K": {
-        "Phase 1": "$2,500 profit target",
-        "Phase 2": "$1,250 profit target"
-      },
-      "$50K": {
-        "Phase 1": "$5,000 profit target",
-        "Phase 2": "$2,500 profit target"
-      },
-      "$100K": {
-        "Phase 1": "$10,000 profit target",
-        "Phase 2": "$5,000 profit target"
-      },
-      "$200K": {
-        "Phase 1": "$20,000 profit target",
-        "Phase 2": "$10,000 profit target"
-      }
-    }
+    "consistency_limit": 15
   },
-  "MyForexFunds": {
-    "evaluation_phases": {
-      "Phase 1": "8% profit target, 5% daily drawdown, 30 calendar days",
-      "Phase 2": "5% profit target, 5% daily drawdown, 60 calendar days"
-    },
-    "funded_account": {
-      "Leverage": "1:100",
-      "Min Trading Days": 5,
-      "Profit Split": "85/15",
-      "Payout Frequency": "Bi-weekly",
-      "Scaling Plan": "Yes, up to 300%"
-    },
-    "overview": {
-      "Total Target": "$8,000 on $100K account",
-      "Max Drawdown": "12% equity or balance",
-      "Daily Drawdown": "5% max from previous day balance",
-      "Phases": 2,
-      "Refundable Fee": "Yes, upon passing"
-    },
-    "trading_rules": {
-      "Leverage": "1:100",
-      "News Trading Allowed": true,
-      "Weekend Holding": true,
-      "Consistency Rule": false,
-      "Max Daily Drawdown": "5%",
-      "Max Overall Drawdown": "12%",
-      "Minimum Trading Days": 5,
-      "Trading Hours": "24/5",
-      "EA/Bot Trading Allowed": true
-    },
-    "max_daily_drawdown": 5,
-    "consistency_limit": 15,
-    "phases_by_account_size": {
-      "$5K": {
-        "Phase 1": "$400 profit target",
-        "Phase 2": "$250 profit target"
-      },
-      "$10K": {
-        "Phase 1": "$800 profit target",
-        "Phase 2": "$500 profit target"
-      },
-      "$25K": {
-        "Phase 1": "$2,000 profit target",
-        "Phase 2": "$1,250 profit target"
-      },
-      "$50K": {
-        "Phase 1": "$4,000 profit target",
-        "Phase 2": "$2,500 profit target"
-      },
-      "$100K": {
-        "Phase 1": "$8,000 profit target",
-        "Phase 2": "$5,000 profit target"
-      },
-      "$200K": {
-        "Phase 1": "$16,000 profit target",
-        "Phase 2": "$10,000 profit target"
-      }
-    }
-  },
+  "FTMO": {},
+  "MyForexFunds": {},
   "True Forex Funds": {},
   "The Funded Trader": {},
   "Fidelcrest": {},
