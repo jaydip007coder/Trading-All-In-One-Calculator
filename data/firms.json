@@ -1,154 +1,180 @@
 {
+  "FunderPro": {
+    "evaluation_phases": {
+      "Phase 1": "10% profit target, 5% max daily drawdown, 30 calendar days",
+      "Phase 2": "5% profit target, 5% max daily drawdown, 60 calendar days"
+    },
+    "funded_account": {
+      "Leverage": "1:100",
+      "Min Trading Days": 5,
+      "Profit Split": "80/20",
+      "Payout Frequency": "Bi-weekly",
+      "Scaling Plan": "Yes, up to 200%"
+    },
+    "overview": {
+      "Total Target": "$5,000 on $100K account",
+      "Max Drawdown": "10% equity or balance",
+      "Daily Drawdown": "5% max from previous day balance",
+      "Phases": 2,
+      "Refundable Fee": "Yes, upon passing"
+    },
+    "trading_rules": {
+      "Leverage": "1:100",
+      "News Trading Allowed": true,
+      "Weekend Holding": false,
+      "Consistency Rule": false,
+      "Max Daily Drawdown": "5%",
+      "Max Overall Drawdown": "10%",
+      "Minimum Trading Days": 5,
+      "Trading Hours": "24/5",
+      "EA/Bot Trading Allowed": true
+    },
+    "max_daily_drawdown": 5,
+    "consistency_limit": 15,
+    "phases_by_account_size": {
+      "$5K": {
+        "Phase 1": "$500 profit target",
+        "Phase 2": "$250 profit target"
+      },
+      "$10K": {
+        "Phase 1": "$1,000 profit target",
+        "Phase 2": "$500 profit target"
+      },
+      "$25K": {
+        "Phase 1": "$2,500 profit target",
+        "Phase 2": "$1,250 profit target"
+      },
+      "$50K": {
+        "Phase 1": "$5,000 profit target",
+        "Phase 2": "$2,500 profit target"
+      },
+      "$100K": {
+        "Phase 1": "$10,000 profit target",
+        "Phase 2": "$5,000 profit target"
+      },
+      "$200K": {
+        "Phase 1": "$20,000 profit target",
+        "Phase 2": "$10,000 profit target"
+      }
+    }
+  },
   "FTMO": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 10000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
+    "evaluation_phases": {
+      "Phase 1": "10% profit target, 5% daily drawdown, 30 calendar days",
+      "Phase 2": "5% profit target, 5% daily drawdown, 60 calendar days"
+    },
+    "funded_account": {
+      "Leverage": "1:100",
+      "Min Trading Days": 10,
+      "Profit Split": "80/20",
+      "Payout Frequency": "Monthly",
+      "Scaling Plan": "Yes, up to 400%"
+    },
+    "overview": {
+      "Total Target": "$10,000 on $100K account",
+      "Max Drawdown": "10% of initial balance",
+      "Daily Drawdown": "5% from previous day balance",
+      "Phases": 2,
+      "Refundable Fee": "Yes, if both phases passed"
+    },
+    "trading_rules": {
+      "Leverage": "1:100",
+      "News Trading Allowed": true,
+      "Weekend Holding": true,
+      "Consistency Rule": false,
+      "Max Daily Drawdown": "5%",
+      "Max Overall Drawdown": "10%",
+      "Minimum Trading Days": 10,
+      "Trading Hours": "24/5",
+      "EA/Bot Trading Allowed": true
+    },
+    "max_daily_drawdown": 5,
+    "consistency_limit": 15,
+    "phases_by_account_size": {
+      "$10K": {
+        "Phase 1": "$1,000 profit target",
+        "Phase 2": "$500 profit target"
       },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
+      "$25K": {
+        "Phase 1": "$2,500 profit target",
+        "Phase 2": "$1,250 profit target"
       },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10,
-        "consistency_limit": 15
+      "$50K": {
+        "Phase 1": "$5,000 profit target",
+        "Phase 2": "$2,500 profit target"
+      },
+      "$100K": {
+        "Phase 1": "$10,000 profit target",
+        "Phase 2": "$5,000 profit target"
+      },
+      "$200K": {
+        "Phase 1": "$20,000 profit target",
+        "Phase 2": "$10,000 profit target"
       }
     }
   },
   "MyForexFunds": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 8000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 12
+    "evaluation_phases": {
+      "Phase 1": "8% profit target, 5% daily drawdown, 30 calendar days",
+      "Phase 2": "5% profit target, 5% daily drawdown, 60 calendar days"
+    },
+    "funded_account": {
+      "Leverage": "1:100",
+      "Min Trading Days": 5,
+      "Profit Split": "85/15",
+      "Payout Frequency": "Bi-weekly",
+      "Scaling Plan": "Yes, up to 300%"
+    },
+    "overview": {
+      "Total Target": "$8,000 on $100K account",
+      "Max Drawdown": "12% equity or balance",
+      "Daily Drawdown": "5% max from previous day balance",
+      "Phases": 2,
+      "Refundable Fee": "Yes, upon passing"
+    },
+    "trading_rules": {
+      "Leverage": "1:100",
+      "News Trading Allowed": true,
+      "Weekend Holding": true,
+      "Consistency Rule": false,
+      "Max Daily Drawdown": "5%",
+      "Max Overall Drawdown": "12%",
+      "Minimum Trading Days": 5,
+      "Trading Hours": "24/5",
+      "EA/Bot Trading Allowed": true
+    },
+    "max_daily_drawdown": 5,
+    "consistency_limit": 15,
+    "phases_by_account_size": {
+      "$5K": {
+        "Phase 1": "$400 profit target",
+        "Phase 2": "$250 profit target"
       },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 12
+      "$10K": {
+        "Phase 1": "$800 profit target",
+        "Phase 2": "$500 profit target"
       },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 12,
-        "consistency_limit": 15
+      "$25K": {
+        "Phase 1": "$2,000 profit target",
+        "Phase 2": "$1,250 profit target"
+      },
+      "$50K": {
+        "Phase 1": "$4,000 profit target",
+        "Phase 2": "$2,500 profit target"
+      },
+      "$100K": {
+        "Phase 1": "$8,000 profit target",
+        "Phase 2": "$5,000 profit target"
+      },
+      "$200K": {
+        "Phase 1": "$16,000 profit target",
+        "Phase 2": "$10,000 profit target"
       }
     }
   },
-  "The Funded Trader": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 10000,
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12
-      },
-      "Funded": {
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12,
-        "consistency_limit": 15
-      }
-    }
-  },
-  "True Forex Funds": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 8000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10,
-        "consistency_limit": 15
-      }
-    }
-  },
-  "Fidelcrest": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 10000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10,
-        "consistency_limit": 15
-      }
-    }
-  },
-  "FunderPro": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 8000,
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12
-      },
-      "Funded": {
-        "max_daily_drawdown": 6,
-        "max_total_drawdown": 12,
-        "consistency_limit": 15
-      }
-    }
-  },
-  "Funding Pips": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 8000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10,
-        "consistency_limit": 15
-      }
-    }
-  },
-  "FundedNext": {
-    "phases": {
-      "Phase 1": {
-        "profit_target": 8000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Phase 2": {
-        "profit_target": 5000,
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10
-      },
-      "Funded": {
-        "max_daily_drawdown": 5,
-        "max_total_drawdown": 10,
-        "consistency_limit": 15
-      }
-    }
-  }
+  "True Forex Funds": {},
+  "The Funded Trader": {},
+  "Fidelcrest": {},
+  "FundedNext": {},
+  "Funding Pips": {}
 }
