@@ -1,0 +1,154 @@
+{
+  "FTMO": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 10000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "MyForexFunds": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 8000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 12
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 12
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 12,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "The Funded Trader": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 10000,
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12
+      },
+      "Funded": {
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "True Forex Funds": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 8000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "Fidelcrest": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 10000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "FunderPro": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 8000,
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12
+      },
+      "Funded": {
+        "max_daily_drawdown": 6,
+        "max_total_drawdown": 12,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "Funding Pips": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 8000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10,
+        "consistency_limit": 15
+      }
+    }
+  },
+  "FundedNext": {
+    "phases": {
+      "Phase 1": {
+        "profit_target": 8000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Phase 2": {
+        "profit_target": 5000,
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10
+      },
+      "Funded": {
+        "max_daily_drawdown": 5,
+        "max_total_drawdown": 10,
+        "consistency_limit": 15
+      }
+    }
+  }
+}
